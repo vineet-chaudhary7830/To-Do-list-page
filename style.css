@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 10px;
+    color: white;
+}
+#main{
+    height: 380px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background: linear-gradient(to right, #a2c5fe,#c2e9fc);
+    position: relative;
+}
+
+#inp{
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 10px;
+    width: 350px;
+    border: none;
+}
+
+#clckm{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    background-color: rgb(0, 189, 202);
+    color: white;
+    border-radius: 25px;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+}
+#p1{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 130px;
+    left: 78px;
+    border: 2px solid #a2c5fe;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px ;
+    display: none;
+}
+#p2{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 78px;
+    border: 2px solid #a2c5fe;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px ;
+    display: none;    
+}
+#p3{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 230px;
+    left: 78px;
+    border: 2px solid #a2c5fe;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px ;
+    display: none; 
+}
+#p4{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 280px;
+    left: 78px;
+    border: 2px solid #a2c5fe;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px ; 
+    display: none;
+}
+#p5{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 330px;
+    left: 78px;
+    border: 2px solid #a2c5fe;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px ;
+    display: none; 
+}
+#button1{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 135px;
+    right: 108px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    display: none;
+}
+#button2{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 184px;
+    right: 108px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    display: none;
+}
+#button3{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 234px;
+    right: 108px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    display: none;
+}
+#button4{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 284px;
+    right: 108px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    display: none;
+}
+#button5{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 334px;
+    right: 108px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    display: none;
+}
+#del1{
+    position: absolute;
+    top: 135px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 25px; 
+    letter-spacing: 1.5px;
+    display: none; 
+}
+#del2{
+    position: absolute;
+    top: 184px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 25px; 
+    letter-spacing: 1.5px;
+    display: none;
+}
+#del3{
+    position: absolute;
+    top: 234px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 25px; 
+    letter-spacing: 1.5px;
+    display: none;
+}
+#del4{
+    position: absolute;
+    top: 284px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 25px; 
+    letter-spacing: 1.5px;
+    display: none;
+}
+#del5{
+    position: absolute;
+    top: 334px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 25px; 
+    letter-spacing: 1.5px;
+    display: none;
+}
